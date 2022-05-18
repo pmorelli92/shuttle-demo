@@ -1,1 +1,1 @@
-docker build -f ./../Dockerfile -t nodep:local .
+docker build -f $plan/Dockerfile -t nodep:local .
