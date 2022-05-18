@@ -1,0 +1,9 @@
+vars:
+  language: go
+scripts:
+  build:
+    description: generate swagger docs
+    args:
+    - name: tag
+    actions:
+    - shell: $plan/scripts/swagger-upd.sh
