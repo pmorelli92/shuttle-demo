@@ -7,3 +7,10 @@ scripts:
     - name: tag
     actions:
     - shell: $plan/scripts/swagger-upd.sh
+
+  docker-build:
+    description: generate docker build
+    args:
+    - name: tag
+    actions:
+    - shell: $plan/scripts/docker-build.sh
