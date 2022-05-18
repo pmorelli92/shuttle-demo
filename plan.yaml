@@ -1,7 +1,7 @@
 vars:
   language: go
 scripts:
-  build:
+  swagger-upd:
     description: generate swagger docs
     args:
     - name: tag
